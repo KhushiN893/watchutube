@@ -36,7 +36,7 @@ const Feed = () => {
        setSelectedCategory={setSelectedCategory}/>
             </Box>
 
-      <Box  sx={{overflowY:'auto',height:'90vh' ,flex:4}}>
+      <Box p={2} sx={{overflowY:'auto',height:'90vh' ,flex:4}}>
         <Typography variant='h4' fontFamily={'Acme'} fontWeight={'bold'} mb={2} sx={{color:'white' , textAlign:'center'}}>
        {selectedCategory} <span style={{color:'#f29024'}}>Videos</span>
         </Typography>
